@@ -8,7 +8,6 @@ import StreamShow from "./streams/StreamShow";
 import Header from "./Header";
 
 const App = () => {
-  console.log(process.env.REACT_APP_KEY_TEST);
   return (
     <div className="ui container">
       <BrowserRouter>
